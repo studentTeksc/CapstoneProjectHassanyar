@@ -1,1 +1,135 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-14T05:37:33.009Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3940756400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add and Remove a Mac book from Cart",
+        "description": "",
+        "id": "add-and-remove-a-book-from-cart;add-and-remove-a-mac-book-from-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 251600400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1318032400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on MacBook item",
+            "match": {
+              "location": "step.definition.MacBookStepDef.user_click_on_mac_book_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65822700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click add to Cart button for Mac Book",
+            "match": {
+              "location": "step.definition.MacBookStepDef.user_click_add_to_cart_button_for_mac_book()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309429100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should see a message ‘Success: You have added MacBook to your shopping cart!’",
+            "match": {
+              "location": "step.definition.MacBookStepDef.user_should_see_a_message_success_you_have_added_mac_book_to_your_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71808300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see \u0027 1 items\u0027 showed to the cart",
+            "match": {
+              "location": "step.definition.MacBookStepDef.user_should_see_showed_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52857700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on cart option",
+            "match": {
+              "location": "step.definition.MacBookStepDef.user_click_on_cart_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65824200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on red X button to remove the item from cart",
+            "match": {
+              "location": "step.definition.MacBookStepDef.user_click_on_red_x_button_to_remove_the_item_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226378700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "item should be removed and cart should show \u0027 0 items\u0027",
+            "match": {
+              "location": "step.definition.MacBookStepDef.item_should_be_removed_and_cart_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@assignment"
+          }
+        ]
+      }
+    ],
+    "name": "Add and Remove a book from Cart",
+    "description": "",
+    "id": "add-and-remove-a-book-from-cart",
+    "keyword": "Feature",
+    "uri": "classpath:feature/LabAndNoteBook.feature",
+    "tags": []
+  }
+]
