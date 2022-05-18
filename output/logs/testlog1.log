@@ -743,3 +743,87 @@
 2022-05-14 01:37:38,922 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Remove from Cart button
 2022-05-14 01:37:39,150 [main] INFO .\src\test\resources\input\log4j.properties - Items removed from the black card shown
 2022-05-14 01:37:39,404 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Add and Remove a Mac book from Cart PASSED
+2022-05-15 16:07:15,654 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison started
+2022-05-15 16:07:21,318 [main] INFO .\src\test\resources\input\log4j.properties - User is on Retail website
+2022-05-15 16:07:21,453 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on laptop and Notebooks Tab
+2022-05-15 16:07:22,103 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptop and Notebooks link
+2022-05-15 16:07:22,717 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison UNDEFINED
+2022-05-16 01:43:08,402 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison started
+2022-05-16 01:43:14,601 [main] INFO .\src\test\resources\input\log4j.properties - User click on product comparison icon on ‘MacBook
+2022-05-16 01:43:16,116 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison FAILED
+2022-05-16 01:55:28,128 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison started
+2022-05-16 01:55:32,432 [main] INFO .\src\test\resources\input\log4j.properties - User click on product comparison icon on ‘MacBook
+2022-05-16 01:55:32,651 [main] INFO .\src\test\resources\input\log4j.properties - User click on product comparison icon on ‘MacBook Air
+2022-05-16 01:55:32,744 [main] INFO .\src\test\resources\input\log4j.properties - Added MacaBook Air Success Message is shown
+2022-05-16 01:55:33,110 [main] INFO .\src\test\resources\input\log4j.properties - User click on Product comparison link
+2022-05-16 01:55:33,199 [main] INFO .\src\test\resources\input\log4j.properties - Product Comparison Chart is show
+2022-05-16 01:55:33,721 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison PASSED
+2022-05-16 22:44:09,351 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Add and Remove a Mac book from Cart started
+2022-05-16 22:44:18,389 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Mac Book item
+2022-05-16 22:44:18,465 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Blue Add To Cart Button for MacBook
+2022-05-16 22:44:18,770 [main] INFO .\src\test\resources\input\log4j.properties - Add to Cart Success Message is shown
+2022-05-16 22:44:18,874 [main] INFO .\src\test\resources\input\log4j.properties - '1-Items-602' message showed on the black cart!
+2022-05-16 22:44:18,929 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on black cart button again
+2022-05-16 22:44:19,003 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on Remove from Cart button
+2022-05-16 22:44:19,284 [main] INFO .\src\test\resources\input\log4j.properties - Items removed from the black card shown
+2022-05-16 22:44:19,578 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Add and Remove a Mac book from Cart PASSED
+2022-05-16 22:50:27,776 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison started
+2022-05-16 22:50:31,764 [main] INFO .\src\test\resources\input\log4j.properties - User click on product comparison icon on ‘MacBook
+2022-05-16 22:50:31,982 [main] INFO .\src\test\resources\input\log4j.properties - User click on product comparison icon on ‘MacBook Air
+2022-05-16 22:50:32,052 [main] INFO .\src\test\resources\input\log4j.properties - Added MacaBook Air Success Message is shown
+2022-05-16 22:50:33,373 [main] INFO .\src\test\resources\input\log4j.properties - User click on Product comparison link
+2022-05-16 22:51:03,794 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison FAILED
+2022-05-16 23:02:20,127 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison started
+2022-05-16 23:02:24,137 [main] INFO .\src\test\resources\input\log4j.properties - User click on product comparison icon on ‘MacBook
+2022-05-16 23:02:24,331 [main] INFO .\src\test\resources\input\log4j.properties - User click on product comparison icon on ‘MacBook Air
+2022-05-16 23:02:24,400 [main] INFO .\src\test\resources\input\log4j.properties - Added MacaBook Air Success Message is shown
+2022-05-16 23:02:24,464 [main] INFO .\src\test\resources\input\log4j.properties - User click on Product comparison link
+2022-05-16 23:02:54,812 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison FAILED
+2022-05-16 23:07:08,206 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison started
+2022-05-16 23:07:12,003 [main] INFO .\src\test\resources\input\log4j.properties - User click on product comparison icon on ‘MacBook
+2022-05-16 23:07:12,183 [main] INFO .\src\test\resources\input\log4j.properties - User click on product comparison icon on ‘MacBook Air
+2022-05-16 23:07:12,255 [main] INFO .\src\test\resources\input\log4j.properties - Added MacaBook Air Success Message is shown
+2022-05-16 23:07:13,620 [main] INFO .\src\test\resources\input\log4j.properties - User click on Product comparison link
+2022-05-16 23:07:13,658 [main] INFO .\src\test\resources\input\log4j.properties - Product Comparison Chart is show
+2022-05-16 23:07:14,328 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Product Comparison PASSED
+2022-05-17 23:23:29,790 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Adding an item to Wish list started
+2022-05-17 23:23:39,353 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on laptop and Notebooks Tab
+2022-05-17 23:23:40,114 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptop and Notebooks option
+2022-05-17 23:23:40,327 [main] INFO .\src\test\resources\input\log4j.properties - User click on heart icon to add ‘Sony VaIO’ laptop to wish list
+2022-05-17 23:23:41,172 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Adding an item to Wish list UNDEFINED
+2022-05-17 23:25:30,734 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Adding an item to Wish list started
+2022-05-17 23:25:36,997 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on laptop and Notebooks Tab
+2022-05-17 23:25:37,930 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptop and Notebooks option
+2022-05-17 23:25:38,199 [main] INFO .\src\test\resources\input\log4j.properties - User click on heart icon to add ‘Sony VaIO’ laptop to wish list
+2022-05-17 23:25:38,812 [main] INFO .\src\test\resources\input\log4j.properties - alertSuccessMessage
+2022-05-17 23:25:39,851 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Adding an item to Wish list PASSED
+2022-05-17 23:31:17,035 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 started
+2022-05-17 23:31:23,917 [main] INFO .\src\test\resources\input\log4j.properties - User is on Retail website
+2022-05-17 23:31:24,057 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on laptop and Notebooks Tab
+2022-05-17 23:31:24,725 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptop and Notebooks option
+2022-05-17 23:31:25,105 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 UNDEFINED
+2022-05-18 00:02:47,066 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 started
+2022-05-18 00:02:51,729 [main] INFO .\src\test\resources\input\log4j.properties - User is on Retail website
+2022-05-18 00:02:51,826 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on laptop and Notebooks Tab
+2022-05-18 00:02:52,422 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptop and Notebooks option
+2022-05-18 00:02:53,967 [main] INFO .\src\test\resources\input\log4j.properties - User click on ‘MacBook Pro’ item
+2022-05-18 00:02:54,545 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 FAILED
+2022-05-18 00:05:05,494 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 started
+2022-05-18 00:05:09,909 [main] INFO .\src\test\resources\input\log4j.properties - User is on Retail website
+2022-05-18 00:05:10,007 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on laptop and Notebooks Tab
+2022-05-18 00:05:10,541 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptop and Notebooks option
+2022-05-18 00:05:11,981 [main] INFO .\src\test\resources\input\log4j.properties - User click on ‘MacBook Pro’ item
+2022-05-18 00:05:16,399 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 FAILED
+2022-05-18 00:08:03,617 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 started
+2022-05-18 00:08:08,289 [main] INFO .\src\test\resources\input\log4j.properties - User is on Retail website
+2022-05-18 00:08:08,498 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on laptop and Notebooks Tab
+2022-05-18 00:08:09,022 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptop and Notebooks option
+2022-05-18 00:08:10,478 [main] INFO .\src\test\resources\input\log4j.properties - User click on ‘MacBook Pro’ item
+2022-05-18 00:08:14,949 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 FAILED
+2022-05-18 00:18:53,834 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 started
+2022-05-18 00:18:59,609 [main] INFO .\src\test\resources\input\log4j.properties - User is on Retail website
+2022-05-18 00:18:59,683 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on laptop and Notebooks Tab
+2022-05-18 00:19:00,197 [main] INFO .\src\test\resources\input\log4j.properties - User clicked on show all laptop and Notebooks option
+2022-05-18 00:19:01,839 [main] INFO .\src\test\resources\input\log4j.properties - User click on ‘MacBook Pro’ item
+2022-05-18 00:19:01,883 [main] INFO .\src\test\resources\input\log4j.properties - User should see ‘$2,000.00’ price tag is present on UI
+2022-05-18 00:19:06,615 [main] INFO .\src\test\resources\input\log4j.properties - Scenario Validate the price of MacBook Pro is 2000 PASSED

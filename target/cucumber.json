@@ -1,13 +1,13 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-05-14T05:37:33.009Z",
+        "start_timestamp": "2022-05-18T04:18:53.422Z",
         "before": [
           {
             "result": {
-              "duration": 3940756400,
+              "duration": 5959017500,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Add and Remove a Mac book from Cart",
+        "line": 5,
+        "name": "Validate the price of MacBook Pro is 2000",
         "description": "",
-        "id": "add-and-remove-a-book-from-cart;add-and-remove-a-mac-book-from-cart",
+        "id": "validate-the-macbook-price;validate-the-price-of-macbook-pro-is-2000",
         "after": [
           {
             "result": {
-              "duration": 251600400,
+              "duration": 4438064400,
               "status": "passed"
             },
             "match": {
@@ -35,101 +35,77 @@
         "steps": [
           {
             "result": {
-              "duration": 1318032400,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User click on MacBook item",
-            "match": {
-              "location": "step.definition.MacBookStepDef.user_click_on_mac_book_item()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 65822700,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User click add to Cart button for Mac Book",
-            "match": {
-              "location": "step.definition.MacBookStepDef.user_click_add_to_cart_button_for_mac_book()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 309429100,
+              "duration": 111009800,
               "status": "passed"
             },
             "line": 7,
-            "name": "User should see a message ‘Success: You have added MacBook to your shopping cart!’",
+            "name": "User is on Retail website",
             "match": {
-              "location": "step.definition.MacBookStepDef.user_should_see_a_message_success_you_have_added_mac_book_to_your_shopping_cart()"
+              "location": "step.definition.DesktopStepDef.userIsOnRuser_is_on_retail_home_pageetailHomePage()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 71808300,
+              "duration": 72806600,
               "status": "passed"
             },
             "line": 8,
-            "name": "User should see \u0027 1 items\u0027 showed to the cart",
+            "name": "User click on Laptop \u0026NoteBook tab",
             "match": {
-              "location": "step.definition.MacBookStepDef.user_should_see_showed_to_the_cart()"
+              "location": "step.definition.ProductCamparisonStepDef.user_click_on_laptop_note_book_tab()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 52857700,
+              "duration": 514864200,
               "status": "passed"
             },
             "line": 9,
-            "name": "User click on cart option",
+            "name": "User click on Show all Laptop \u0026NoteBook option",
             "match": {
-              "location": "step.definition.MacBookStepDef.user_click_on_cart_option()"
+              "location": "step.definition.ProductCamparisonStepDef.user_click_on_show_all_laptop_note_book_option()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 65824200,
+              "duration": 1637912400,
               "status": "passed"
             },
             "line": 10,
-            "name": "user click on red X button to remove the item from cart",
+            "name": "User click on ‘MacBook Pro’ item",
             "match": {
-              "location": "step.definition.MacBookStepDef.user_click_on_red_x_button_to_remove_the_item_from_cart()"
+              "location": "step.definition.MacBookPriceStepDef.User_click_on_MacBook_Pro_item()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 226378700,
+              "duration": 335398600,
               "status": "passed"
             },
             "line": 11,
-            "name": "item should be removed and cart should show \u0027 0 items\u0027",
+            "name": "User should see ‘$2,000.00’ price tag is present on UI",
             "match": {
-              "location": "step.definition.MacBookStepDef.item_should_be_removed_and_cart_should_show()"
+              "location": "step.definition.MacBookPriceStepDef.User_should_see_the_price_tag_is_present_on_UI()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@assignment"
+            "name": "@MacBookPrice"
           }
         ]
       }
     ],
-    "name": "Add and Remove a book from Cart",
+    "name": "validate the MacBook Price",
     "description": "",
-    "id": "add-and-remove-a-book-from-cart",
+    "id": "validate-the-macbook-price",
     "keyword": "Feature",
-    "uri": "classpath:feature/LabAndNoteBook.feature",
+    "uri": "classpath:feature/MacBookPrice.feature",
     "tags": []
   }
 ]

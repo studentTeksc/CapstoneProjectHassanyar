@@ -10,26 +10,26 @@ import page.objects.MacBook;
 public class MacBookStepDef extends Base{
 	
 	MacBook mackbookpage = new MacBook();
-	@Given("^User is on Retail website 'Laptop Scenario'$")
-	public void user_is_on_retail_website() {
-		String actualPageTitle = driver.getTitle();
-		String expectPageTitle = "TEK SCHOOL"; 
-		Assert.assertEquals(expectPageTitle, actualPageTitle);
-		logger.info("actual page title equals expected page title");
-		//UtilityClass.takeScreenShot(); 
-	}
-	@When("User click on Laptop &NoteBook tab")
-	public void user_click_on_laptop_note_book_tab() {
-		mackbookpage.clickOnLaptopAndNotebook();
-		logger.info("User clicked on laptop and Notebooks Tab");
-		//UtilityClass.takeScreenShot(); 
-	}
-	@When("User click on Show all Laptop &NoteBook option")
-	public void user_click_on_show_all_laptop_note_book_option() {
-		mackbookpage.clickOnShowAllLaptopsAndNotebooks();
-		logger.info("User clicked on show all laptop and Notebooks link");
-		//UtilityClass.takeScreenShot(); 
-	}
+//	@Given("^User is on Retail website 'Laptop Scenario'$")
+//	public void user_is_on_retail_website() {
+//		String actualPageTitle = driver.getTitle();
+//		String expectPageTitle = "TEK SCHOOL"; 
+//		Assert.assertEquals(expectPageTitle, actualPageTitle);
+//		logger.info("actual page title equals expected page title");
+//		//UtilityClass.takeScreenShot(); 
+//	}
+//	@When("User click on Laptop &NoteBook tab")
+//	public void user_click_on_laptop_note_book_tab() {
+//		mackbookpage.clickOnLaptopAndNotebook();
+//		logger.info("User clicked on laptop and Notebooks Tab");
+//		//UtilityClass.takeScreenShot(); 
+//	}
+//	@When("User click on Show all Laptop &NoteBook option")
+//	public void user_click_on_show_all_laptop_note_book_option() {
+//		mackbookpage.clickOnShowAllLaptopsAndNotebooks();
+//		logger.info("User clicked on show all laptop and Notebooks link");
+//		//UtilityClass.takeScreenShot(); 
+//	}
 	@When("User click on MacBook item")
 	public void user_click_on_mac_book_item() {
 		mackbookpage.clickOnMacBookItem();
