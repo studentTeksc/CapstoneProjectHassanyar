@@ -6,16 +6,16 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
-public class MacBook extends Base {
+public class LabAndNoteBookPage extends Base {
 
-	public MacBook() {
+	public LabAndNoteBookPage() {
 	   PageFactory.initElements(driver, this);
 	}
 	@FindBy(xpath = "//a[normalize-space()='Laptops & Notebooks']")
-	private WebElement laptopsAndNotebooksLink;
+	private WebElement laptopsAndNotebooksLinkOne;
 
 	@FindBy(xpath = "//a[normalize-space()='Show All Laptops & Notebooks']")
-	private WebElement showAllLaptopsAndNotebooks;
+	private WebElement showAllLaptopsAndNotebooksOne;
 
 	@FindBy(xpath = "//a[normalize-space()='MacBook']")
 	private WebElement macBookItem;
@@ -38,12 +38,12 @@ public class MacBook extends Base {
 
 	@FindBy(xpath = "//span[text()=' 0 item(s) - $0.00']")
 	private WebElement blackCartEmptyButton;
-	public void clickOnLaptopAndNotebook() {
-		laptopsAndNotebooksLink.click();
+	public void clickOnLaptopAndNotebookOne() {
+		laptopsAndNotebooksLinkOne.click();
 	}
 
-	public void clickOnShowAllLaptopsAndNotebooks() {
-		showAllLaptopsAndNotebooks.click();
+	public void clickOnShowAllLaptopsAndNotebooksOne() {
+		showAllLaptopsAndNotebooksOne.click();
 	}
 
 	public void clickOnMacBookItem() {
@@ -87,6 +87,84 @@ public class MacBook extends Base {
 			return false;
 		}
 	}
-
+	@FindBy(xpath = "//a[normalize-space()='Laptops & Notebooks']")
+	private WebElement laptopsAndNotebooksLink;
+	public void clickOnLaptopAndNotebook() {
+		laptopsAndNotebooksLink.click();
 	}
+
+	@FindBy(xpath = "//a[normalize-space()='Show All Laptops & Notebooks']")
+	private WebElement showAllLaptopsAndNotebooks;
+	public void clickOnShowAllLaptopsAndNotebooks() {
+		showAllLaptopsAndNotebooks.click();
+	}
+	
+   @FindBy(xpath="(//button[@type='button'])[15]")
+   private WebElement comparisonMacBook;
+   public void clickOnproductcomparisIconOnMacBook() {
+	   comparisonMacBook.click();
+   }
+   
+   @FindBy(xpath = "(//button[@type='button'])[18]")
+   private WebElement ComaprisonMacBookAir;
+   public void clickOnProductComparisonIconOnMacBookAir() {
+	   ComaprisonMacBookAir.click();
+   }
+   @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+   private WebElement successMessage;
+   public boolean isSuccessMessageDisplayed() {
+	   if(successMessage.isDisplayed()) {
+		return true;
+	   }else {
+		   return false;
+	   }
+   }
+   
+ 
+   @FindBy(xpath="//a[@href='http://tek-school.com/retail/index.php?route=product/compare']")
+   private WebElement productComparisonLink;
+   public void clickOnProductComparisonLink() {
+	   productComparisonLink.click();
+   }
+  @FindBy(xpath="//h1[text()='Product Comparison']")
+  private WebElement productComparisonChart;
+  public boolean isproductComparisonChartDisplayed() {
+	  if(productComparisonChart.isDisplayed()) {
+		  return true;
+	  }else {
+		  return false;
+	  }
+	  }
+	@FindBy(xpath="(//i[@class='fa fa-heart'])[6]")
+	private WebElement hearticonLaptop;
+	public void clickOnheartIconLaptopWishList() {
+		hearticonLaptop.click();
+	}
+ @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+ private WebElement alertSuccessMessage;
+ public boolean isalertsuccessMessageDisplayed() {
+	   if(alertSuccessMessage.isDisplayed()) {
+		   return true;
+	   }else {
+		   return false;
+	   }
+ }
+	   @FindBy(xpath="(//img[@class='img-responsive'])[5]")
+		private WebElement MacBookProItemOne;
+		public void clickOnMacBookProItemOne() {
+			MacBookProItemOne.click();
+		}
+		@FindBy(xpath="//ul[@class='list-unstyled']")
+		private WebElement Priceshouldbeseen;
+		public boolean isthePricDisplayed() {
+			if(Priceshouldbeseen.isDisplayed()) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+ }
+	
+
+	
 

@@ -1,13 +1,58 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-05-18T04:18:53.422Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 108707100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "step.definition.DesktopStepDef.userIsOnRuser_is_on_retail_home_pageetailHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144617100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click on Desktops tab",
+            "match": {
+              "location": "step.definition.DesktopStepDef.user_click_on_Desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 762656400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definition.DesktopStepDef.user_click_On_Show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-27T23:53:29.806Z",
         "before": [
           {
             "result": {
-              "duration": 5959017500,
+              "duration": 4716626700,
               "status": "passed"
             },
             "match": {
@@ -15,14 +60,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Validate the price of MacBook Pro is 2000",
+        "line": 9,
+        "name": "User verify all items are present in Desktops tab",
         "description": "",
-        "id": "validate-the-macbook-price;validate-the-price-of-macbook-pro-is-2000",
+        "id": "desktop-home-page;user-verify-all-items-are-present-in-desktops-tab",
         "after": [
           {
             "result": {
-              "duration": 4438064400,
+              "duration": 332772900,
               "status": "passed"
             },
             "match": {
@@ -35,10 +80,36 @@
         "steps": [
           {
             "result": {
-              "duration": 111009800,
+              "duration": 1599881100,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
+            "name": "user see all items are present in Desktops",
+            "match": {
+              "location": "step.definition.DesktopStepDef.user_should_see_all_items_are_present_in_Desktops_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@desktopTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 54855400,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "User is on Retail website",
             "match": {
               "location": "step.definition.DesktopStepDef.userIsOnRuser_is_on_retail_home_pageetailHomePage()"
@@ -47,65 +118,261 @@
           },
           {
             "result": {
-              "duration": 72806600,
+              "duration": 170205700,
               "status": "passed"
             },
-            "line": 8,
-            "name": "User click on Laptop \u0026NoteBook tab",
+            "line": 6,
+            "name": "User Click on Desktops tab",
             "match": {
-              "location": "step.definition.ProductCamparisonStepDef.user_click_on_laptop_note_book_tab()"
+              "location": "step.definition.DesktopStepDef.user_click_on_Desktops_tab()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 514864200,
+              "duration": 607845100,
               "status": "passed"
             },
-            "line": 9,
-            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "line": 7,
+            "name": "User click on Show all desktops",
             "match": {
-              "location": "step.definition.ProductCamparisonStepDef.user_click_on_show_all_laptop_note_book_option()"
+              "location": "step.definition.DesktopStepDef.user_click_On_Show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-27T23:53:37.586Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3056495000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User add HP LP 3065 from Desktops tab to the cart",
+        "description": "",
+        "id": "desktop-home-page;user-add-hp-lp-3065-from-desktops-tab-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 4308857100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1074507700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on HP LP 3065 desktop",
+            "match": {
+              "location": "step.definition.DesktopStepDef.User_click_on_HP_LP_3065_desktop()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1637912400,
+              "duration": 1714684100,
               "status": "passed"
             },
-            "line": 10,
-            "name": "User click on ‘MacBook Pro’ item",
+            "line": 15,
+            "name": "User select quantity 1",
             "match": {
-              "location": "step.definition.MacBookPriceStepDef.User_click_on_MacBook_Pro_item()"
+              "location": "step.definition.DesktopStepDef.User_select_quantity_1()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 335398600,
+              "duration": 1065161600,
               "status": "passed"
             },
-            "line": 11,
-            "name": "User should see ‘$2,000.00’ price tag is present on UI",
+            "line": 16,
+            "name": "User click add to Cart button",
             "match": {
-              "location": "step.definition.MacBookPriceStepDef.User_should_see_the_price_tag_is_present_on_UI()"
+              "location": "step.definition.DesktopStepDef.User_click_add_to_Cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1050165900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should see a message ‘Success: you have added HP LP 3065 to your Shopping cart!",
+            "match": {
+              "location": "step.definition.DesktopStepDef.User_should_see_a_message_Success_have_added_HP_LP_3065_to_your_shopping_cart()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@MacBookPrice"
+            "name": "@desktopTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 48868400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "step.definition.DesktopStepDef.userIsOnRuser_is_on_retail_home_pageetailHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126659000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click on Desktops tab",
+            "match": {
+              "location": "step.definition.DesktopStepDef.user_click_on_Desktops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 725797700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Show all desktops",
+            "match": {
+              "location": "step.definition.DesktopStepDef.user_click_On_Show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-27T23:53:50.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3267211100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User add Canon EOS 5D from Desktops tab to the cart",
+        "description": "",
+        "id": "desktop-home-page;user-add-canon-eos-5d-from-desktops-tab-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 137328100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1008246500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on Canon EOS 5D img",
+            "match": {
+              "location": "step.definition.DesktopStepDef.User_click_on_Canon_EOS_5D_img()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#input\\-quantity\"}\n  (Session info: chrome\u003d101.0.4951.67)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UDEJRNB\u0027, ip: \u002710.0.0.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\makba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5d6909e78509b296b052a3eb8e4590c0\n*** Element info: {Using\u003did, value\u003dinput-quantity}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)\r\n\tat page.objects.DesktopPage.selectQuantityCamera(DesktopPage.java:107)\r\n\tat step.definition.DesktopStepDef.User_select_color_from_dropdown_Red(DesktopStepDef.java:116)\r\n\tat ✽.User select color from dropdown ‘Red’(classpath:feature/Desktop.feature:21)\r\n",
+              "duration": 30062710200,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "User select color from dropdown ‘Red’",
+            "match": {
+              "location": "step.definition.DesktopStepDef.User_select_color_from_dropdown_Red()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User click add to Cart button",
+            "match": {
+              "location": "step.definition.DesktopStepDef.User_click_add_to_Cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User should see a message ‘Success: You have added Canon EOS 5D to your shopping cart!’",
+            "match": {
+              "location": "step.definition.DesktopStepDef.User_should_see_a_message_Success_you_have_added_Canon_EOS_5D_to_your()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@desktopTest"
           }
         ]
       }
     ],
-    "name": "validate the MacBook Price",
+    "name": "Desktop home page",
     "description": "",
-    "id": "validate-the-macbook-price",
+    "id": "desktop-home-page",
     "keyword": "Feature",
-    "uri": "classpath:feature/MacBookPrice.feature",
-    "tags": []
+    "uri": "classpath:feature/Desktop.feature",
+    "tags": [
+      {
+        "name": "@desktopTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
