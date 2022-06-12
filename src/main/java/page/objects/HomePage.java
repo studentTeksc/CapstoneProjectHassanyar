@@ -9,6 +9,7 @@ public class HomePage extends Base{
 	public HomePage() {
 		PageFactory.initElements(driver, this);
 	}
+	// Locators for Scenario: User verify currency values change
 	@FindBy(xpath = "//div[@class='pull-left']")
 	private WebElement currency;
 	public void clickOnCurrency() {
@@ -21,6 +22,7 @@ public class HomePage extends Base{
 	    choseEuro.isEnabled();
 	    choseEuro.isDisplayed();
 	}
+	// Locators for Scenario: User empty Shopping cart message displays 
 	  @FindBy(xpath="(//i[@class='fa fa-shopping-cart'])[1]")
 	  private WebElement emptyShopptingCart;
 	  public void clickOnEmptyShoppingCart() {

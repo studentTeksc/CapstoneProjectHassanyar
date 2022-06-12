@@ -15,6 +15,8 @@ public class DesktopPage extends Base {
 
 	public DesktopPage() {
 		PageFactory.initElements(driver, this);}
+	// Locators for BackGround:
+	
 	@FindBy(xpath = "//a[text()='Desktops']")
 	private WebElement desktopTab;
 	
@@ -23,7 +25,7 @@ public class DesktopPage extends Base {
 	
 	@FindBy(tagName = "img")
 	private List<WebElement> items;
-
+	// Locators for Scenario:for user add HP LP 3065 from Desktop tab to the Cart
 	private WebElement logo;
 	@FindBy(xpath = "(//span[text()='Add to Cart'])[3]")
 	private WebElement clickOnHPLaptopAddToCartButton;
@@ -52,6 +54,7 @@ public class DesktopPage extends Base {
 	@FindBy(xpath = "/html/body/div[2]/div[1]")
 	private WebElement Successtext;
 	
+	// Locators for Scenario: User add Canon EOS 5D from Desktops tab to the cart
 	@FindBy(css = "#content > div:nth-child(7) > div:nth-child(2) > div > div:nth-child(2) > div.caption > h4 > a")
 	private WebElement CanonEOS5DCamera;
 
@@ -86,6 +89,7 @@ public class DesktopPage extends Base {
 		else
 			return false;
 	}
+	// Locators for Scenario:User add a review to Canon EOS 5D item in Desktops tab
 	public void clickOnHPLaptopAddToCartButton() {
 		clickOnHPLaptopAddToCartButton.click();
 	}

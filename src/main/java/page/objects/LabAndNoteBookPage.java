@@ -11,6 +11,7 @@ public class LabAndNoteBookPage extends Base {
 	public LabAndNoteBookPage() {
 	   PageFactory.initElements(driver, this);
 	}
+	// Locators for Scenario: Add and Remove a Mac book from Cart
 	@FindBy(xpath = "//a[normalize-space()='Laptops & Notebooks']")
 	private WebElement laptopsAndNotebooksLinkOne;
 
@@ -86,6 +87,7 @@ public class LabAndNoteBookPage extends Base {
 			return false;
 		}
 	}
+	// Locators for Scenario:Product Comparison 
 	@FindBy(xpath = "//a[normalize-space()='Laptops & Notebooks']")
 	private WebElement laptopsAndNotebooksLink;
 	public void clickOnLaptopAndNotebook() {
@@ -124,9 +126,7 @@ public class LabAndNoteBookPage extends Base {
 	   }
 	   
    }
-   
- 
-   @FindBy(xpath="(//a[@href='http://tek-school.com/retail/index.php?route=product/compare'])[1]")
+    @FindBy(xpath="(//a[@href='http://tek-school.com/retail/index.php?route=product/compare'])[1]")
    private WebElement productComparisonLink;
    public void clickOnProductComparisonLink() {
 	   productComparisonLink.click();
