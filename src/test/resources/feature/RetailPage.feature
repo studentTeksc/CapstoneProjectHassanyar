@@ -1,39 +1,41 @@
 @RetailPage
-Feature: Retail Page 
+Feature: Retail Page Feature
 
 Background:
+Given User is on Retail website 
+And User click on MyAccount
+When User click on Login 
+And User enter username "omani234@gmail.com" and password "zxcvbn"
+And User click on Login button
 
- When user click on MyAccount
- And user click on Login option
- And user enter userName "makbarh444@gmail.com"  and password "Akbar@123"
- And user click on login button
- 
-  Scenario: login to Retail Website
-  Then user should be logged into myAccount Page
+Scenario: Login page
+Then User should be logged in to MyAccount dashboard
 
 Scenario: Register as an Affiliate user with Cheque Payment Method
 When User click on ‘Register for an Affiliate Account’ link 
 And User fill affiliate form with below information
+
 |company|website|taxID|paymentMethod|
-|Jahid|www.bbc.com|60|Cheque|
+|Tar|www.gmail.com|889|ChequeNew|
 And User check on About us check box 
-And User click on Continue button Icon
-Then User should see a success message
+And User click on Continue button 
+Then User should see a success message 
 
 Scenario: Edit your affiliate information from Cheque payment method to Bank Transfer
 When User click on ‘Edit your affiliate informationlink 
 And user click on Bank Transfer radio button
 And User fill Bank information with below information
 |bankName|abaNumber|swiftCode|accountName|accountNumber|
-|Bank of America|000345|2023|Checking|000098876578456|
-And User click on Continue button option
-Then User should see a successfull message 
+|Bank Of America|7867543|00009|checking|5554433221|
+And User click on Continue button 
+Then User should see a success message 
 
 Scenario: Edit your account Information 
 When User click on ‘Edit your account information’ link 
 And User modify below information 
 |firstname|lastName|email|telephone|
-|Mohammad Akbar|Hassanyar|makbarh444@gmail.com|2404233916|
+|Qar|Qarii|Qari@gmail.com|4532345678|
 And User click on continue button 
-Then User should see a message ‘Success: Your account has been successfully updated.
+Then User should see a message ‘Success: Your account has been successfully updated.’
+
 

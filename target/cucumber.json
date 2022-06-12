@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 108707100,
+              "duration": 130646900,
               "status": "passed"
             },
             "line": 5,
@@ -23,36 +23,70 @@
           },
           {
             "result": {
-              "duration": 144617100,
+              "duration": 112584000,
               "status": "passed"
             },
             "line": 6,
-            "name": "User Click on Desktops tab",
+            "name": "User click on MyAccount",
             "match": {
-              "location": "step.definition.DesktopStepDef.user_click_on_Desktops_tab()"
+              "location": "step.definition.RetailPageStepDef.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 727814000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_login()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 762656400,
+              "duration": 266292800,
               "status": "passed"
             },
-            "line": 7,
-            "name": "User click on Show all desktops",
+            "line": 8,
+            "name": "User enter username \"omani234@gmail.com\" and password \"zxcvbn\"",
             "match": {
-              "location": "step.definition.DesktopStepDef.user_click_On_Show_all_desktops()"
+              "arguments": [
+                {
+                  "val": "\"omani234@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"zxcvbn\"",
+                  "offset": 54
+                }
+              ],
+              "location": "step.definition.RetailPageStepDef.user_enter_user_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1085780700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_login_button()"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2022-05-27T23:53:29.806Z",
+        "start_timestamp": "2022-06-12T14:15:58.185Z",
         "before": [
           {
             "result": {
-              "duration": 4716626700,
+              "duration": 6533633500,
               "status": "passed"
             },
             "match": {
@@ -60,14 +94,14 @@
             }
           }
         ],
-        "line": 9,
-        "name": "User verify all items are present in Desktops tab",
+        "line": 11,
+        "name": "Login page",
         "description": "",
-        "id": "desktop-home-page;user-verify-all-items-are-present-in-desktops-tab",
+        "id": "retail-page-feature;login-page",
         "after": [
           {
             "result": {
-              "duration": 332772900,
+              "duration": 346669500,
               "status": "passed"
             },
             "match": {
@@ -80,20 +114,20 @@
         "steps": [
           {
             "result": {
-              "duration": 1599881100,
+              "duration": 1049622200,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user see all items are present in Desktops",
+            "line": 12,
+            "name": "User should be logged in to MyAccount dashboard",
             "match": {
-              "location": "step.definition.DesktopStepDef.user_should_see_all_items_are_present_in_Desktops_page()"
+              "location": "step.definition.RetailPageStepDef.user_should_be_logged_in_to_my_account_dashboard()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@desktopTest"
+            "name": "@RetailPage"
           }
         ]
       },
@@ -106,7 +140,7 @@
         "steps": [
           {
             "result": {
-              "duration": 54855400,
+              "duration": 75812400,
               "status": "passed"
             },
             "line": 5,
@@ -118,36 +152,70 @@
           },
           {
             "result": {
-              "duration": 170205700,
+              "duration": 161543100,
               "status": "passed"
             },
             "line": 6,
-            "name": "User Click on Desktops tab",
+            "name": "User click on MyAccount",
             "match": {
-              "location": "step.definition.DesktopStepDef.user_click_on_Desktops_tab()"
+              "location": "step.definition.RetailPageStepDef.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 519968200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_login()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 607845100,
+              "duration": 253160500,
               "status": "passed"
             },
-            "line": 7,
-            "name": "User click on Show all desktops",
+            "line": 8,
+            "name": "User enter username \"omani234@gmail.com\" and password \"zxcvbn\"",
             "match": {
-              "location": "step.definition.DesktopStepDef.user_click_On_Show_all_desktops()"
+              "arguments": [
+                {
+                  "val": "\"omani234@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"zxcvbn\"",
+                  "offset": 54
+                }
+              ],
+              "location": "step.definition.RetailPageStepDef.user_enter_user_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1054441700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_login_button()"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2022-05-27T23:53:37.586Z",
+        "start_timestamp": "2022-06-12T14:16:08.639Z",
         "before": [
           {
             "result": {
-              "duration": 3056495000,
+              "duration": 3084304400,
               "status": "passed"
             },
             "match": {
@@ -155,177 +223,86 @@
             }
           }
         ],
-        "line": 13,
-        "name": "User add HP LP 3065 from Desktops tab to the cart",
+        "line": 14,
+        "name": "Register as an Affiliate user with Cheque Payment Method",
         "description": "",
-        "id": "desktop-home-page;user-add-hp-lp-3065-from-desktops-tab-to-the-cart",
+        "id": "retail-page-feature;register-as-an-affiliate-user-with-cheque-payment-method",
         "after": [
           {
             "result": {
-              "duration": 4308857100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1074507700,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User click on HP LP 3065 desktop",
-            "match": {
-              "location": "step.definition.DesktopStepDef.User_click_on_HP_LP_3065_desktop()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1714684100,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User select quantity 1",
-            "match": {
-              "location": "step.definition.DesktopStepDef.User_select_quantity_1()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1065161600,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User click add to Cart button",
-            "match": {
-              "location": "step.definition.DesktopStepDef.User_click_add_to_Cart_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1050165900,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User should see a message ‘Success: you have added HP LP 3065 to your Shopping cart!",
-            "match": {
-              "location": "step.definition.DesktopStepDef.User_should_see_a_message_Success_have_added_HP_LP_3065_to_your_shopping_cart()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@desktopTest"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 48868400,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is on Retail website",
-            "match": {
-              "location": "step.definition.DesktopStepDef.userIsOnRuser_is_on_retail_home_pageetailHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 126659000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User Click on Desktops tab",
-            "match": {
-              "location": "step.definition.DesktopStepDef.user_click_on_Desktops_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 725797700,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User click on Show all desktops",
-            "match": {
-              "location": "step.definition.DesktopStepDef.user_click_On_Show_all_desktops()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-05-27T23:53:50.705Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3267211100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "User add Canon EOS 5D from Desktops tab to the cart",
-        "description": "",
-        "id": "desktop-home-page;user-add-canon-eos-5d-from-desktops-tab-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 137328100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1008246500,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "User click on Canon EOS 5D img",
-            "match": {
-              "location": "step.definition.DesktopStepDef.User_click_on_Canon_EOS_5D_img()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#input\\-quantity\"}\n  (Session info: chrome\u003d101.0.4951.67)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UDEJRNB\u0027, ip: \u002710.0.0.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\makba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5d6909e78509b296b052a3eb8e4590c0\n*** Element info: {Using\u003did, value\u003dinput-quantity}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)\r\n\tat page.objects.DesktopPage.selectQuantityCamera(DesktopPage.java:107)\r\n\tat step.definition.DesktopStepDef.User_select_color_from_dropdown_Red(DesktopStepDef.java:116)\r\n\tat ✽.User select color from dropdown ‘Red’(classpath:feature/Desktop.feature:21)\r\n",
-              "duration": 30062710200,
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UDEJRNB\u0027, ip: \u002710.0.0.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\makba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50306}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9c0d50e915bb497c1f721485bf10ddd7\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat core.Base.tearDown(Base.java:84)\r\n\tat step.definition.Initializer.afterHooks(Initializer.java:18)\r\n",
+              "duration": 260397900,
               "status": "failed"
             },
-            "line": 21,
-            "name": "User select color from dropdown ‘Red’",
             "match": {
-              "location": "step.definition.DesktopStepDef.User_select_color_from_dropdown_Red()"
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//a[text()\u003d\u0027Register for an affiliate account\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UDEJRNB\u0027, ip: \u002710.0.0.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)\r\n\tat page.objects.RetailPage.RegisterAffiliateAccount(RetailPage.java:116)\r\n\tat step.definition.RetailPageStepDef.user_click_on_register_for_an_affiliate_account_link(RetailPageStepDef.java:51)\r\n\tat ✽.User click on ‘Register for an Affiliate Account’ link(classpath:feature/RetailPage.feature:15)\r\n",
+              "duration": 12185206100,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User click on ‘Register for an Affiliate Account’ link",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_register_for_an_affiliate_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User fill affiliate form with below information",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_fill_affiliate_form_with_below_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "company",
+                  "website",
+                  "taxID",
+                  "paymentMethod"
+                ]
+              },
+              {
+                "cells": [
+                  "Tar",
+                  "www.gmail.com",
+                  "889",
+                  "ChequeNew"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User check on About us check box",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_check_on_about_us_check_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User click on Continue button",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_continue_button()"
             },
             "keyword": "And "
           },
@@ -334,9 +311,151 @@
               "status": "skipped"
             },
             "line": 22,
-            "name": "User click add to Cart button",
+            "name": "User should see a success message",
             "match": {
-              "location": "step.definition.DesktopStepDef.User_click_add_to_Cart_button()"
+              "location": "step.definition.RetailPageStepDef.user_should_see_a_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RetailPage"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 83774900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "step.definition.DesktopStepDef.userIsOnRuser_is_on_retail_home_pageetailHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129652500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 474369700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310170300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username \"omani234@gmail.com\" and password \"zxcvbn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"omani234@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"zxcvbn\"",
+                  "offset": 54
+                }
+              ],
+              "location": "step.definition.RetailPageStepDef.user_enter_user_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513229300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-12T14:16:26.284Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3035378400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Edit your affiliate information from Cheque payment method to Bank Transfer",
+        "description": "",
+        "id": "retail-page-feature;edit-your-affiliate-information-from-cheque-payment-method-to-bank-transfer",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UDEJRNB\u0027, ip: \u002710.0.0.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\makba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 30e7af6de0e71cd6787644a5afb5c185\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat core.Base.tearDown(Base.java:84)\r\n\tat step.definition.Initializer.afterHooks(Initializer.java:18)\r\n",
+              "duration": 293534600,
+              "status": "failed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d/html/body/div[2]/div/div/ul[3]/li[1]/a\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UDEJRNB\u0027, ip: \u002710.0.0.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)\r\n\tat page.objects.RetailPage.EditAffiliateAccount(RetailPage.java:153)\r\n\tat step.definition.RetailPageStepDef.user_click_on_edit_your_affiliate_informationlink(RetailPageStepDef.java:88)\r\n\tat ✽.User click on ‘Edit your affiliate informationlink(classpath:feature/RetailPage.feature:25)\r\n",
+              "duration": 9763235300,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "User click on ‘Edit your affiliate informationlink",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_edit_your_affiliate_informationlink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user click on Bank Transfer radio button",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_bank_transfer_radio_button()"
             },
             "keyword": "And "
           },
@@ -344,29 +463,253 @@
             "result": {
               "status": "skipped"
             },
-            "line": 23,
-            "name": "User should see a message ‘Success: You have added Canon EOS 5D to your shopping cart!’",
+            "line": 27,
+            "name": "User fill Bank information with below information",
             "match": {
-              "location": "step.definition.DesktopStepDef.User_should_see_a_message_Success_you_have_added_Canon_EOS_5D_to_your()"
+              "location": "step.definition.RetailPageStepDef.user_fill_bank_information_with_below_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bankName",
+                  "abaNumber",
+                  "swiftCode",
+                  "accountName",
+                  "accountNumber"
+                ]
+              },
+              {
+                "cells": [
+                  "Bank Of America",
+                  "7867543",
+                  "00009",
+                  "checking",
+                  "5554433221"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User click on Continue button",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User should see a success message",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_should_see_a_success_message()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@desktopTest"
+            "name": "@RetailPage"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 47035400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "step.definition.DesktopStepDef.userIsOnRuser_is_on_retail_home_pageetailHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82777800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on MyAccount",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 378571700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Login",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UDEJRNB\u0027, ip: \u002710.0.0.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\makba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 788760aa7fd02be77ce55604aa2a7266\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)\r\n\tat page.objects.RetailPage.enterPassword(RetailPage.java:103)\r\n\tat step.definition.RetailPageStepDef.user_enter_user_name_and_password(RetailPageStepDef.java:31)\r\n\tat ✽.User enter username \"omani234@gmail.com\" and password \"zxcvbn\"(classpath:feature/RetailPage.feature:8)\r\n",
+              "duration": 375532800,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User enter username \"omani234@gmail.com\" and password \"zxcvbn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"omani234@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"zxcvbn\"",
+                  "offset": 54
+                }
+              ],
+              "location": "step.definition.RetailPageStepDef.user_enter_user_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3007200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User click on Login button",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-12T14:16:40.918Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4978092400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Edit your account Information",
+        "description": "",
+        "id": "retail-page-feature;edit-your-account-information",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d102.0.5005.115)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UDEJRNB\u0027, ip: \u002710.0.0.37\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\makba\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 788760aa7fd02be77ce55604aa2a7266\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat core.Base.tearDown(Base.java:84)\r\n\tat step.definition.Initializer.afterHooks(Initializer.java:18)\r\n",
+              "duration": 4109295300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User click on ‘Edit your account information’ link",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_edit_your_account_information_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User modify below information",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_modify_below_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastName",
+                  "email",
+                  "telephone"
+                ]
+              },
+              {
+                "cells": [
+                  "Qar",
+                  "Qarii",
+                  "Qari@gmail.com",
+                  "4532345678"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "User click on continue button",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_click_on_continue_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "User should see a message ‘Success: Your account has been successfully updated.’",
+            "match": {
+              "location": "step.definition.RetailPageStepDef.user_should_see_a_message_success_your_account_has_been_successfully_updated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RetailPage"
           }
         ]
       }
     ],
-    "name": "Desktop home page",
+    "name": "Retail Page Feature",
     "description": "",
-    "id": "desktop-home-page",
+    "id": "retail-page-feature",
     "keyword": "Feature",
-    "uri": "classpath:feature/Desktop.feature",
+    "uri": "classpath:feature/RetailPage.feature",
     "tags": [
       {
-        "name": "@desktopTest",
+        "name": "@RetailPage",
         "type": "Tag",
         "location": {
           "line": 1,

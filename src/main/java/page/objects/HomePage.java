@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
 public class HomePage extends Base{
-
 	public HomePage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -18,15 +17,13 @@ public class HomePage extends Base{
 	@FindBy(xpath="//button[@class='currency-select btn btn-link btn-block']")
 	private WebElement choseEuro;
 	public void selectEuroCurrency() {
-		
-	    choseEuro.isSelected();
+		choseEuro.isSelected();
 	    choseEuro.isEnabled();
 	    choseEuro.isDisplayed();
 	}
 	  @FindBy(xpath="(//i[@class='fa fa-shopping-cart'])[1]")
 	  private WebElement emptyShopptingCart;
 	  public void clickOnEmptyShoppingCart() {
-		  
 		 }
 	  @FindBy(id="content")
 	  private WebElement shoppingCartMessage;

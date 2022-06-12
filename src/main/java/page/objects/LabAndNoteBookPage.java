@@ -24,7 +24,6 @@ public class LabAndNoteBookPage extends Base {
 	private WebElement addToCartBlueButton;
 
 	@FindBy(xpath = "//div[text()='Success: You have added ']//a[text()='MacBook']")
-//	div[@class='alert alert-success alert-dismissible']
 	private WebElement macBookSuccessMessageAddToCart;
 
 	@FindBy(xpath = "//h2[normalize-space()='$602.00']")
@@ -105,26 +104,37 @@ public class LabAndNoteBookPage extends Base {
 	   comparisonMacBook.click();
    }
    
-   @FindBy(xpath = "(//button[@type='button'])[18]")
+   @FindBy(xpath = "(//button[@type='button'])[19]")
    private WebElement ComaprisonMacBookAir;
    public void clickOnProductComparisonIconOnMacBookAir() {
 	   ComaprisonMacBookAir.click();
+	   try {
+		Thread.sleep(1000);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
+	}
    }
    @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
    private WebElement successMessage;
-   public boolean isSuccessMessageDisplayed() {
+   public boolean isSuccessMessageForComparisonDisplayed() {
 	   if(successMessage.isDisplayed()) {
 		return true;
 	   }else {
 		   return false;
 	   }
+	   
    }
    
  
-   @FindBy(xpath="//a[@href='http://tek-school.com/retail/index.php?route=product/compare']")
+   @FindBy(xpath="(//a[@href='http://tek-school.com/retail/index.php?route=product/compare'])[1]")
    private WebElement productComparisonLink;
    public void clickOnProductComparisonLink() {
 	   productComparisonLink.click();
+	   try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+		e.printStackTrace();
+		}
    }
   @FindBy(xpath="//h1[text()='Product Comparison']")
   private WebElement productComparisonChart;

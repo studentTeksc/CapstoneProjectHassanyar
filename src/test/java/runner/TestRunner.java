@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "classpath:feature", // C:\\New Eclipse Projects\\com.myproject\\src\\test\\resources\\feature",
 		glue = "step.definition", //"src\\test\\java\\step.definition",
-		tags = "@desktopTest",  // we can put here stepDefinition file path here or its name. 
+		tags = "@RetailPage",  // we can put here stepDefinition file path here or its name. 
 		dryRun = false, // when we test we must type false here. 
 		strict = true,
 		monochrome = true,
@@ -19,9 +19,6 @@ import io.cucumber.junit.CucumberOptions;
 		publish = true
 			
 		)
-
-
-
 public class TestRunner {
 
 }
